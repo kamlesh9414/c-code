@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main()
+{
+		//TO FIND THE VALUE IS EVEN OR ODD
+		
+		int inputvalue, result;
+		scanf("%d",&inputvalue);
+		result = inputvalue % 2;
+		if(result==0)
+		{
+			printf("%d is even",inputvalue);
+		}
+		else
+		{
+			printf("%d is odd",inputvalue);
+		}
+}
