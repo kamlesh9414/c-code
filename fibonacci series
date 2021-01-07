@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main()
+{
+	int end, a=0, b=1, c,i;
+	printf("end with");
+	scanf("%d",&end);
+	
+	for(i=1; i<=end; i++)
+	{printf("%d ",a);				//initially a=0
+	c= a+b;
+	a=b;
+	b=c;
+    }
+}
